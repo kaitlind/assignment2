@@ -41,46 +41,15 @@
 
 
 
-// //Part 2 #7 --> Unfortunately, I can't seem to figure this one out. I left this code so you can see what I was thinking, but I don't even know if it's headed in the right direction.
-// var whatMonth = prompt("Enter the number for the month that you want to know the number of days for where January is equal to zero.");
-// var daysMonth = new Date(whatMonth);
-// switch (daysMonth){
-//     case daysMonth.search(01):
-//         console.log("31");
-//         break;
-//     case 1:
-//         console.log("28"); 
-//         break;
-//     case 2:
-//         console.log("31");
-//         break;
-//     case 3:
-//         console.log("30");
-//         break;
-//     case 4:
-//         console.log("31");
-//         break;
-//     case 5:
-//         console.log("30");
-//         break;
-//     case 6:
-//         console.log("31");
-//         break;
-//     case 7:
-//         console.log("31");
-//         break;
-//     case 8:
-//         console.log("30");
-//         break;
-//     case 9:
-//         console.log("30");
-//         break;
-//     case 10:
-//         console.log("31");
-//         break;
-//     case 11:
-//         console.log("31");
-//         break;
+// //Part 2 #7 
+// var currentDate = new Date();
+//     var daysMonth = currentDate.getMonth();
+//     if (daysMonth == 0 || daysMonth == 2 || daysMonth == 4 || daysMonth == 6 || daysMonth == 7 || daysMonth == 9 || daysMonth == 11) {
+//         console.log("There are 31 days in the current month.");
+//     } else if (daysMonth == 1) {
+//         console.log("There are 28 or 29 days in the current month.");
+//     } else {
+//         console.log("There are 30 days in the current month.");
 // }
 
 
